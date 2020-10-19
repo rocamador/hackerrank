@@ -6,7 +6,6 @@ public class Solution {
         String s = Integer.toBinaryString(n);
         //System.out.printf("%s (%s)\n", s, n);
         int max = 0;
-        char last;
         int curr = 0;
 
         for (char ch: s.toCharArray()) {
